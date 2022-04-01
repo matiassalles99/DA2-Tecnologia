@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vet.Domain\Vet.Domain.csproj" />
+    <ProjectReference Include="..\Vet.BusinessLogicInterface\Vet.BusinessLogicInterface.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

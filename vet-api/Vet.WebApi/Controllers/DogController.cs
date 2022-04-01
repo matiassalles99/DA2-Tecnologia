@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Vet.BusinessLogicInterface;
+using Vet.Domain;
 using Vet.WebApi.Models.Read;
 using Vet.WebApi.Models.Write;
 
@@ -10,20 +12,17 @@ namespace Vet.Api.BusinessLogic
     [Route("dogs")]
     public class DogController : ControllerBase
     {
-        public static IEnumerable<Dog> _dogs;
+        private readonly IDogLogic _dogLogic;
 
-        public DogController()
+        public DogController(IDogLogic dogLogic)
         {
-            if (_dogs is null)
-            {
-                _dogs = new List<Dog>();
-            }
+            this._dogLogic = dogLogic;
         }
 
         [HttpGet]
         public IActionResult GetAllDogs()
         {
-            return Ok(_dogs.Select(dog => new DogBasicInfoModel
+            return Ok(this._dogLogic.GetAll().Select(dog => new DogBasicInfoModel
             {
                 Id = dog.Id,
                 Name = dog.Name
@@ -33,7 +32,7 @@ namespace Vet.Api.BusinessLogic
         [HttpGet("{dogId}", Name = "GetDogById")]
         public IActionResult GetDog(int dogId)
         {
-            var dogSaved = _dogs.FirstOrDefault(dog => dog.Id == dogId);
+            var dogSaved = this._dogLogic.GetById(dogId);
 
             if (dogSaved is null)
             {
@@ -61,31 +60,36 @@ namespace Vet.Api.BusinessLogic
         {
             var newDog = new Dog
             {
-                Id = _dogs.Count() + 1,
                 Name = dog.Name,
                 Age = dog.Age,
                 Race = dog.Race,
                 OwnerId = dog.OwnerId
             };
 
-            var dogsSaved = _dogs.ToList();
-            dogsSaved.Add(newDog);
-            _dogs = dogsSaved;
+            var dogSaved = this._dogLogic.Add(newDog);
 
-            return CreatedAtRoute("GetDogById", new { dogId = newDog.Id }, newDog);
+            var dogSavedConverted = new DogDetailInfoModel
+            {
+                Id = dogSaved.Id,
+                Name = dogSaved.Name,
+                Owner = new OwnerBasicInfoModel
+                {
+                    Id = dogSaved.OwnerId
+                }
+            };
+
+            return CreatedAtRoute("GetDogById", new { dogId = dogSaved.Id }, dogSavedConverted);
         }
 
         [HttpPut("{dogId}")]
         public IActionResult UpdateAdog(int dogId, DogModel dog)
         {
-            var dogSaved = _dogs.FirstOrDefault(dog => dog.Id == dogId);
-
-            if (dogSaved is null)
+            var dogConverted = new Dog
             {
-                return NotFound();
-            }
+                Age = dog.Age
+            };
 
-            dogSaved.Age = dog.Age;
+            this._dogLogic.Update(dogId, dogConverted);
 
             return NoContent();
         }
@@ -93,34 +97,9 @@ namespace Vet.Api.BusinessLogic
         [HttpDelete("{dogId}")]
         public IActionResult DeleteAdog(int dogId)
         {
-            var dogSaved = _dogs.FirstOrDefault(dog => dog.Id == dogId);
-
-            if (dogSaved is null)
-            {
-                return NotFound();
-            }
-
-            _dogs = _dogs.Where(dog => dog.Id != dogId);
+            this._dogLogic.Delete(dogId);
 
             return NoContent();
         }
-    }
-
-    public class Dog
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public int OwnerId { get; set; }
-        public User Owner { get; set; }
-        public string Race { get; set; }
-    }
-
-    public class User
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string PhoneNumber { get; set; }
-        public string Address { get; set; }
     }
 }

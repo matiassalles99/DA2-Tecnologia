@@ -34,6 +34,9 @@
       "Vet.WebApi/1.0.0": {
         "dependencies": {
           "Swashbuckle.AspNetCore": "5.6.3",
+          "Vet.BusinessLogic": "1.0.0",
+          "Vet.BusinessLogicInterface": "1.0.0",
+          "Vet.Domain": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -382,6 +385,37 @@
         },
         "compile": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        }
+      },
+      "Vet.BusinessLogic/1.0.0": {
+        "dependencies": {
+          "Vet.BusinessLogicInterface": "1.0.0",
+          "Vet.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Vet.BusinessLogic.dll": {}
+        },
+        "compile": {
+          "Vet.BusinessLogic.dll": {}
+        }
+      },
+      "Vet.BusinessLogicInterface/1.0.0": {
+        "dependencies": {
+          "Vet.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Vet.BusinessLogicInterface.dll": {}
+        },
+        "compile": {
+          "Vet.BusinessLogicInterface.dll": {}
+        }
+      },
+      "Vet.Domain/1.0.0": {
+        "runtime": {
+          "Vet.Domain.dll": {}
+        },
+        "compile": {
+          "Vet.Domain.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2131,6 +2165,21 @@
       "sha512": "sha512-BPvcPxQRMsYZ3HnYmGKRWDwX4Wo29WHh14Q6B10BB8Yfbbcza+agOC2UrBFA1EuaZuOsFLbp6E2+mqVNF/Je8A==",
       "path": "swashbuckle.aspnetcore.swaggerui/5.6.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    },
+    "Vet.BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vet.BusinessLogicInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vet.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",
