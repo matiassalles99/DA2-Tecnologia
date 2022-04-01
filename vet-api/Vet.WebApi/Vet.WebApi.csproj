@@ -8,4 +8,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Vet.BusinessLogicInterface\Vet.BusinessLogicInterface.csproj" />
+    <ProjectReference Include="..\Vet.BusinessLogic\Vet.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Vet.Domain\Vet.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

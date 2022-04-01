@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Vet.BusinessLogic;
+using Vet.BusinessLogicInterface;
 
 namespace Vet.WebApi
 {
@@ -33,7 +35,14 @@ namespace Vet.WebApi
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Vet.WebApi", Version = "v1" });
             });
 
-            
+            /*Ciclo de vida
+            Singleton -> Se va a tener una unica instancia de la dependencia a lo largo de la vida de la aplicacion
+            Scoped -> Todas aquellas clases que tengan la misma dependencia van a compartir la misma instancia
+            Transient -> Se va a tener siempre instancias diferentes de las dependencias
+            */
+
+            //Se puso Transient porque es el ciclo de vida mas apropiado para esta logica ya que solo la va a usar una clase
+            services.AddTransient<IDogLogic, DogLogic>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

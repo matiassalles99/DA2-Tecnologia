@@ -75,6 +75,43 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Vet.BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Vet.BusinessLogicInterface": "1.0.0",
+          "Vet.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vet.BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vet.BusinessLogic.dll": {}
+        }
+      },
+      "Vet.BusinessLogicInterface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Vet.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vet.BusinessLogicInterface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vet.BusinessLogicInterface.dll": {}
+        }
+      },
+      "Vet.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Vet.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vet.Domain.dll": {}
+        }
       }
     }
   },
@@ -185,27 +222,45 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Vet.BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../Vet.BusinessLogic/Vet.BusinessLogic.csproj",
+      "msbuildProject": "../Vet.BusinessLogic/Vet.BusinessLogic.csproj"
+    },
+    "Vet.BusinessLogicInterface/1.0.0": {
+      "type": "project",
+      "path": "../Vet.BusinessLogicInterface/Vet.BusinessLogicInterface.csproj",
+      "msbuildProject": "../Vet.BusinessLogicInterface/Vet.BusinessLogicInterface.csproj"
+    },
+    "Vet.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Vet.Domain/Vet.Domain.csproj",
+      "msbuildProject": "../Vet.Domain/Vet.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "Vet.BusinessLogic >= 1.0.0",
+      "Vet.BusinessLogicInterface >= 1.0.0",
+      "Vet.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\danie\\.nuget\\packages\\": {}
+    "C:\\Users\\Daniel Acevedo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.WebApi\\Vet.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.WebApi\\Vet.WebApi.csproj",
       "projectName": "Vet.WebApi",
-      "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.WebApi\\Vet.WebApi.csproj",
-      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.WebApi\\obj\\",
+      "projectPath": "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.WebApi\\Vet.WebApi.csproj",
+      "packagesPath": "C:\\Users\\Daniel Acevedo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Daniel Acevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -218,7 +273,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.BusinessLogicInterface\\Vet.BusinessLogicInterface.csproj": {
+              "projectPath": "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.BusinessLogicInterface\\Vet.BusinessLogicInterface.csproj"
+            },
+            "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.BusinessLogic\\Vet.BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.BusinessLogic\\Vet.BusinessLogic.csproj"
+            },
+            "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.Domain\\Vet.Domain.csproj": {
+              "projectPath": "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.Domain\\Vet.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -254,7 +319,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
