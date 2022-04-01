@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Vet.BusinessLogicInterface;
@@ -88,8 +89,14 @@ namespace Vet.Api.BusinessLogic
             {
                 Age = dog.Age
             };
-
-            this._dogLogic.Update(dogId, dogConverted);
+            try
+            {
+                this._dogLogic.Update(dogId, dogConverted);
+            }
+            catch (ArgumentNullException ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
 
             return NoContent();
         }

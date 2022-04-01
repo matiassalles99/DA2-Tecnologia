@@ -248,19 +248,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\danie\\.nuget\\packages\\": {}
+    "C:\\Users\\Daniel Acevedo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.WebApi\\Vet.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.WebApi\\Vet.WebApi.csproj",
       "projectName": "Vet.WebApi",
-      "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.WebApi\\Vet.WebApi.csproj",
-      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.WebApi\\obj\\",
+      "projectPath": "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.WebApi\\Vet.WebApi.csproj",
+      "packagesPath": "C:\\Users\\Daniel Acevedo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Daniel Acevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -274,14 +274,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.BusinessLogicInterface\\Vet.BusinessLogicInterface.csproj": {
-              "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.BusinessLogicInterface\\Vet.BusinessLogicInterface.csproj"
+            "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.BusinessLogicInterface\\Vet.BusinessLogicInterface.csproj": {
+              "projectPath": "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.BusinessLogicInterface\\Vet.BusinessLogicInterface.csproj"
             },
-            "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.BusinessLogic\\Vet.BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.BusinessLogic\\Vet.BusinessLogic.csproj"
+            "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.BusinessLogic\\Vet.BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.BusinessLogic\\Vet.BusinessLogic.csproj"
             },
-            "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.Domain\\Vet.Domain.csproj": {
-              "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.Domain\\Vet.Domain.csproj"
+            "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.Domain\\Vet.Domain.csproj": {
+              "projectPath": "C:\\Users\\Daniel Acevedo\\Documents\\GitHub\\DA2-Tecnologia\\vet-api\\Vet.Domain\\Vet.Domain.csproj"
             }
           }
         }
@@ -319,7 +319,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
