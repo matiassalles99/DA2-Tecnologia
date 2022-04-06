@@ -21,6 +21,9 @@ En el van a encontrar tanto material teórico y enlaces a documentos, como códi
 
 El código que encontraran aquí va a ser construido clase a clase. Por supuesto no va a ser perfecto, así que es recomendable tomarlo con cuidado y aplicarlo de la forma más conveniente.
 
+---
+## Notion
+-En este [link](https://cheerful-nation-1ca.notion.site/DA2-b7b2f6ec85964936bb35d449b643ebfd) van a poder encontrar material del curso como tambien materiales de interes.
 ### Herramientas necesarias para este curso
 
 - [.NET Core](https://dotnet.microsoft.com/download)
