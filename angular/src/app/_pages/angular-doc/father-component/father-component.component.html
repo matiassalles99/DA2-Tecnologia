@@ -1,0 +1,8 @@
+<p>father-component works!</p>
+<app-son-component 
+message="Hello from father" 
+[messageProp]="propFromFather"
+(helloFromSonProp)="helloFromSon($event)"></app-son-component>
+
+<br/>
+{{helloFromSonProp}}
