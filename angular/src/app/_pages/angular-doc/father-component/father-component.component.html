@@ -1,8 +1,25 @@
 <p>father-component works!</p>
+
 <app-son-component 
-message="Hello from father" 
-[messageProp]="propFromFather"
-(helloFromSonProp)="helloFromSon($event)"></app-son-component>
+  message="Hello from father"
+  [messageProp]="propFromFather"
+  (helloFromSonProp)="helloFromSon($event)">
+</app-son-component>
+<br />
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<p>Del hijo al padre:</p>
+{{helloFromSonProp}}
+
 
 <br/>
-{{helloFromSonProp}}
+<br/>
+<br/>
+<br/>
+<br/>
+<p>Pegarle al backend</p>
+<button type="button" class="btn btn-primary" (click)="sendMessageToBackend()">Enviar mensaje al backend</button>

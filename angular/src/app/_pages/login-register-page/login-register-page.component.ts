@@ -12,4 +12,7 @@ export class LoginRegisterPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public login(): void{
+    localStorage.setItem('userInfo', JSON.stringify({ name: 'Mike'}) );
+  }
 }

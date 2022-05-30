@@ -9,6 +9,8 @@ import { AdminModule } from './_pages/admin/admin.module';
 import { IndexAngularDocComponent } from './_pages/index-angular-doc/index-angular-doc.component';
 import { AngularDocModule } from './_pages/angular-doc/angular-doc.module';
 import { AuthenticationGuard } from './_guards/Authentication/authentication.guard';
+import { AuthorizationGuard } from './_guards/Authentication/authorization.guard';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,9 +23,10 @@ import { AuthenticationGuard } from './_guards/Authentication/authentication.gua
     BrowserModule,
     AppRoutingModule,
     AdminModule,
-    AngularDocModule
+    AngularDocModule,
+    HttpClientModule
   ],
-  providers: [AuthenticationGuard],
+  providers: [AuthenticationGuard, AuthorizationGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
