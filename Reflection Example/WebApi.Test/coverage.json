@@ -1,0 +1,438 @@
+{
+  "ServiceRegistrator.dll": {
+    "/Users/matias/Desktop/InyeccionDependencias/ServiceRegistrator/Registrator.cs": {
+      "ServiceRegistrator.Registrator": {
+        "System.Void ServiceRegistrator.Registrator::RegisterServices()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Void ServiceRegistrator.Registrator::.ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "WebApi.dll": {
+    "/Users/matias/Desktop/InyeccionDependencias/WebApi/Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "3": 0,
+            "6": 0,
+            "7": 0,
+            "9": 0,
+            "11": 0,
+            "12": 0,
+            "14": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "27": 0,
+            "29": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 83,
+              "EndOffset": 85,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 83,
+              "EndOffset": 103,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/matias/Desktop/InyeccionDependencias/WebApi/Models/Out/BasicPet.cs": {
+      "WebApi.Models.Out.BasicPet": {
+        "System.Int32 WebApi.Models.Out.BasicPet::get_Id()": {
+          "Lines": {
+            "13": 24
+          },
+          "Branches": []
+        },
+        "System.String WebApi.Models.Out.BasicPet::get_Name()": {
+          "Lines": {
+            "14": 12
+          },
+          "Branches": []
+        },
+        "System.Boolean WebApi.Models.Out.BasicPet::Equals(System.Object)": {
+          "Lines": {
+            "17": 6,
+            "18": 6,
+            "19": 6,
+            "20": 6,
+            "22": 6,
+            "25": 0,
+            "26": 0,
+            "28": 6
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 6
+            },
+            {
+              "Line": 18,
+              "Offset": 12,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void WebApi.Models.Out.BasicPet::.ctor(Domain.Pet)": {
+          "Lines": {
+            "7": 12,
+            "8": 12,
+            "9": 12,
+            "10": 12,
+            "11": 12
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/matias/Desktop/InyeccionDependencias/WebApi/Models/Out/DetailedPet.cs": {
+      "WebApi.Models.Out.DetailedPet": {
+        "System.Int32 WebApi.Models.Out.DetailedPet::get_Id()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String WebApi.Models.Out.DetailedPet::get_Name()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String WebApi.Models.Out.DetailedPet::get_Breed()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 WebApi.Models.Out.DetailedPet::get_Age()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Void WebApi.Models.Out.DetailedPet::.ctor(Domain.Pet)": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/matias/Desktop/InyeccionDependencias/WebApi/Models/In/CreatePet.cs": {
+      "WebApi.Models.In.CreatePet": {
+        "System.String WebApi.Models.In.CreatePet::get_Name()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String WebApi.Models.In.CreatePet::get_Breed()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 WebApi.Models.In.CreatePet::get_Age()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "Domain.Pet WebApi.Models.In.CreatePet::ToEntity()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/matias/Desktop/InyeccionDependencias/WebApi/Controllers/PetController.cs": {
+      "WebApi.Controllers.PetController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult WebApi.Controllers.PetController::Get()": {
+          "Lines": {
+            "22": 3,
+            "23": 9,
+            "24": 3,
+            "25": 3
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult WebApi.Controllers.PetController::GetById(System.Int32)": {
+          "Lines": {
+            "29": 1,
+            "31": 1,
+            "32": 1,
+            "33": 0,
+            "35": 1,
+            "36": 1,
+            "38": 1,
+            "40": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult WebApi.Controllers.PetController::Create(WebApi.Models.In.CreatePet)": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult WebApi.Controllers.PetController::Update(System.Int32,WebApi.Models.In.CreatePet)": {
+          "Lines": {
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "63": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult WebApi.Controllers.PetController::Delete(System.Int32)": {
+          "Lines": {
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "76": 0,
+            "78": 0
+          },
+          "Branches": []
+        },
+        "System.Void WebApi.Controllers.PetController::.ctor(IBusinessLogic.IPetLogic)": {
+          "Lines": {
+            "15": 4,
+            "16": 4,
+            "17": 4,
+            "18": 4
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "BusinessLogic.dll": {
+    "/Users/matias/Desktop/InyeccionDependencias/BusinessLogic/PetLogic.cs": {
+      "BusinessLogic.PetLogic": {
+        "System.Collections.Generic.List`1<Domain.Pet> BusinessLogic.PetLogic::GetAll()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        },
+        "Domain.Pet BusinessLogic.PetLogic::GetById(System.Int32)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 43,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Domain.Pet BusinessLogic.PetLogic::CreatePet(Domain.Pet)": {
+          "Lines": {
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 19,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Domain.Pet BusinessLogic.PetLogic::UpdatePet(System.Int32,Domain.Pet)": {
+          "Lines": {
+            "39": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 43,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void BusinessLogic.PetLogic::Delete(System.Int32)": {
+          "Lines": {
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 43,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void BusinessLogic.PetLogic::.cctor()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Domain.dll": {
+    "/Users/matias/Desktop/InyeccionDependencias/Domain/Pet.cs": {
+      "Domain.Pet": {
+        "System.Int32 Domain.Pet::get_Id()": {
+          "Lines": {
+            "4": 18
+          },
+          "Branches": []
+        },
+        "System.String Domain.Pet::get_Name()": {
+          "Lines": {
+            "5": 18
+          },
+          "Branches": []
+        },
+        "System.String Domain.Pet::get_Breed()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Domain.Pet::get_Age()": {
+          "Lines": {
+            "7": 6
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "IBusinessLogic.dll": {}
+}

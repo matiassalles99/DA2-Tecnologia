@@ -1,0 +1,170 @@
+{
+  "BusinessLogic.dll": {
+    "/Users/matias/Desktop/InyeccionDependencias/BusinessLogic/PetLogic.cs": {
+      "BusinessLogic.PetLogic": {
+        "System.Collections.Generic.List`1<Domain.Pet> BusinessLogic.PetLogic::GetAll()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        },
+        "Domain.Pet BusinessLogic.PetLogic::GetById(System.Int32)": {
+          "Lines": {
+            "16": 1,
+            "17": 1,
+            "19": 1,
+            "20": 1,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 19,
+              "Offset": 43,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Domain.Pet BusinessLogic.PetLogic::CreatePet(Domain.Pet)": {
+          "Lines": {
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 19,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Domain.Pet BusinessLogic.PetLogic::UpdatePet(System.Int32,Domain.Pet)": {
+          "Lines": {
+            "39": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 43,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void BusinessLogic.PetLogic::Delete(System.Int32)": {
+          "Lines": {
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 43,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void BusinessLogic.PetLogic::.cctor()": {
+          "Lines": {
+            "8": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Domain.dll": {
+    "/Users/matias/Desktop/InyeccionDependencias/Domain/Pet.cs": {
+      "Domain.Pet": {
+        "System.Int32 Domain.Pet::get_Id()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        },
+        "System.String Domain.Pet::get_Name()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String Domain.Pet::get_Breed()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Domain.Pet::get_Age()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "IBusinessLogic.dll": {}
+}
