@@ -5,7 +5,7 @@
 - [Cuentas GitHub en la primera hoja](https://fi365-my.sharepoint.com/:x:/g/personal/da185082_fi365_ort_edu_uy/EeK8x-73p5RAmlSL_rvYRwIBJwVE9gECldhuJvqX8nSGKw?e=GVPbLc)
 - [Grupo obligatorios en la segunda hoja](https://fi365-my.sharepoint.com/:x:/g/personal/da185082_fi365_ort_edu_uy/EeK8x-73p5RAmlSL_rvYRwIBJwVE9gECldhuJvqX8nSGKw?e=GVPbLc)
 - [Seguimiento al obligatorio en la tercera hoja](https://fi365-my.sharepoint.com/:x:/g/personal/da185082_fi365_ort_edu_uy/EeK8x-73p5RAmlSL_rvYRwIBJwVE9gECldhuJvqX8nSGKw?e=GVPbLc)
-- [Material de estudio y de seguimiento en Notion](https://www.notion.so/DA2-b7b2f6ec85964936bb35d449b643ebfd#2c508e6427284ef4964ff38ddef0477a)
+- [Material de estudio y de seguimiento en Notion](https://cheerful-nation-1ca.notion.site/DA2-b7b2f6ec85964936bb35d449b643ebfd)
 
 ## Contacto
 
