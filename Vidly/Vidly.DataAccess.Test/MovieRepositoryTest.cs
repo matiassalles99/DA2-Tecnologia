@@ -1,4 +1,6 @@
+using System.Data.Common;
 using System.Linq.Expressions;
+using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Vidly.DataAccess.Contexts;
 using Vidly.Domain.Entities;
@@ -8,66 +10,37 @@ namespace Vidly.DataAccess.Test;
 [TestClass]
 public class MovieRepository
 {
-    private BaseRepository<Movie> _repository;
-    private VidlyContext _context;
+
+    private readonly DbConnection _connection;
+    private readonly BaseRepository<Movie> _repository;
+    private readonly VidlyContext _vidlyContext;
+    private readonly DbContextOptions<VidlyContext> _contextOptions;
+
+    public MovieRepository()
+    {
+        this._connection = new SqliteConnection("Filename=:memory:");
+        this._contextOptions = new DbContextOptionsBuilder<VidlyContext>().UseSqlite(this._connection).Options;
+        this._vidlyContext = new VidlyContext(this._contextOptions);
+        this._repository = new BaseRepository<Movie>(this._vidlyContext);
+    }
 
     [TestInitialize]
     public void SetUp()
     {
-        _context = ContextFactory.GetNewContext(ContextType.SQLite);
-        _context.Database.OpenConnection();
-        _context.Database.EnsureCreated();
-        _repository = new BaseRepository<Movie>(_context);
+        this._connection.Open();
+        this._vidlyContext.Database.EnsureCreated();
     }
 
     [TestCleanup]
     public void CleanUp()
     {
-        _context.Database.EnsureDeleted();
+        this._vidlyContext.Database.EnsureDeleted();
     }
 
     [TestMethod]
-    public void GetAllMoviesReturnsAsExpected()
+    public void GetAllMoviesFilteredByName()
     {
-        Expression<Func<Movie, bool>> expression = m => m.Title.ToLower().Contains("el conjuro");
-        var movies = CreateMovies();
-        var eligibleMovies = movies.Where(expression.Compile()).ToList();
-        LoadMovies(movies);
-     
-        var retrievedMovies = _repository.GetAllBy(expression);
-        CollectionAssert.AreEquivalent(eligibleMovies, retrievedMovies.ToList());
-    }
-
-    [TestMethod]
-    public void InsertNewMovie()
-    {
-        var movies = CreateMovies();
-        LoadMovies(movies);
-        var newMovie = new Movie()
-        {
-            Title = "Interstellar",
-            Description = "Muy buena",
-        };
-    
-        _repository.Insert(newMovie);
-        _repository.Save();
-    
-        // Voy directo al contexto a buscarla
-        var movieInDb = _context.Movies.FirstOrDefault(m => m.Title.Equals(newMovie.Title));
-        Assert.IsNotNull(movieInDb);
-    }
-
-
-    private void LoadMovies(List<Movie> movies)
-    {
-        movies.ForEach(m => _context.Movies.Add(m));
-        _context.SaveChanges();
-    }
-
-    private List<Movie> CreateMovies()
-    {
-        return new List<Movie>()
-        {
+        var moviesInDataBase = new List<Movie>{
             new()
             {
                 Title = "El conjuro 2",
@@ -79,5 +52,37 @@ public class MovieRepository
                 Description = "esta buena"
             }
         };
+        using (var context = new VidlyContext(this._contextOptions))
+        {
+            context.AddRange(moviesInDataBase);
+            context.SaveChanges();
+        }
+        var moviesExpected = moviesInDataBase.Where(m => m.Title.ToLower().Contains("el conjuro")).ToList();
+
+        var moviesSaved = this._repository.GetAllBy(movie => movie.Title.ToLower().Contains("el conjuro")).ToList();
+
+        Assert.AreEqual(moviesExpected.Count(), moviesSaved.Count());
+    }
+
+    [TestMethod]
+    public void InsertNewMovie()
+    {
+        var newMovie = new Movie()
+        {
+            Title = "Interstellar",
+            Description = "Muy buena",
+        };
+
+        _repository.Insert(newMovie);
+        _repository.Save();
+
+        using(var context = new VidlyContext(this._contextOptions))
+        {
+            var movieSaved = context.Movies.FirstOrDefault(m => m.Title == newMovie.Title);
+            
+            Assert.IsNotNull(movieSaved);
+            Assert.AreEqual("Interstellar", movieSaved.Title);
+            Assert.AreEqual("Muy buena", movieSaved.Description);
+        }
     }
 }
