@@ -2,15 +2,12 @@
 
 ## Planillas
 
-- [Cuentas GitHub en la primera hoja](https://fi365-my.sharepoint.com/:x:/g/personal/da185082_fi365_ort_edu_uy/EeK8x-73p5RAmlSL_rvYRwIBJwVE9gECldhuJvqX8nSGKw?e=GVPbLc)
-- [Grupo obligatorios en la segunda hoja](https://fi365-my.sharepoint.com/:x:/g/personal/da185082_fi365_ort_edu_uy/EeK8x-73p5RAmlSL_rvYRwIBJwVE9gECldhuJvqX8nSGKw?e=GVPbLc)
-- [Seguimiento al obligatorio en la tercera hoja](https://fi365-my.sharepoint.com/:x:/g/personal/da185082_fi365_ort_edu_uy/EeK8x-73p5RAmlSL_rvYRwIBJwVE9gECldhuJvqX8nSGKw?e=GVPbLc)
-- [Material de estudio y de seguimiento en Notion](https://cheerful-nation-1ca.notion.site/DA2-b7b2f6ec85964936bb35d449b643ebfd)
+- [Cuentas GitHub en la primera hoja y grupos de obligatorio en la segunda hoja](https://docs.google.com/spreadsheets/d/1mu50GeqMZA6jHZNW74dCI4D1SxWp0ZwL1SJpaPx604s/edit?usp=sharing)
 
 ## Contacto
 
-- Daniel Acevedo - [daniel18acevedo@gmail.com](mailto:daniel18acevedo@gmail.com)
-- Matias Salles - [matiassalles99@gmail.com](mailto:matiassalles99@gmail.com)
+- Marco Fiorito - [marco@metalabs.software](mailto:marco@metalabs.software)
+- Matias Salles - [matias@metalabs.software](mailto:matias@metalabs.software)
 
 ---
 
@@ -42,36 +39,7 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
  - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) Extension que sirve para mostrar y codificar de a pares
  - [C# Estensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions) Extension para crear archivos mas facil
 
-
-<!--## Clases
-
-1. [Comandos .Net Core](/Clases/ComandosNetCore.md)
-2. [Introducción a Web API](/Clases/APIsREST.md)
-3. [Estructura de una request/response](Clases/Request-Response-API-example.pdf)
-4. [Inyección de dependencias](/Clases/InyeccionDependencias.md)
-5. [Introducción a mocking](/Clases/Mocking.md)
-6. [Guia Entity Framework Core](/Clases/EntityFrameworkCore.md)
-7. [Filters](/Clases/Filters.md)
-8. [Reflection](/Clases/Reflection.md)
-9. [Angular](/Clases/Angular.md)
-
-## Ejemplos
-
-1. [Ejemplo de Web API e inyección de dependencias](/Ejemplos/WebAPI)
-2. [Ejemplo de mocking](/Ejemplos/Mocking)
-3. [Ejemplo Entity Framework Core](/Ejemplos/EntityFrameworkCore)
-4. [Ejemplo filters](/Ejemplos/EjemploFilters)
-5. [Ejemplos Reflection](/Ejemplos/Reflection)
-6. [Ejemplo Angular](/Ejemplos/Angular)-->
-
-<!-- ## Deploy
-
-- [WebAPI](https://aulas.ort.edu.uy/mod/resource/view.php?id=186907)
-- [Aplicación Angular](https://aulas.ort.edu.uy/mod/resource/view.php?id=190255) -->
-
----
-
 ## Docentes
 
-- :space_invader: Daniel Acevedo
+- :space_invader: Marco Fiorito
 - :space_invader: Matias Salles
