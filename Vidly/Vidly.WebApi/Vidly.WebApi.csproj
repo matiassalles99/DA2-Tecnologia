@@ -12,8 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Vidly.BusinessLogic\Vidly.BusinessLogic.csproj" />
-    <ProjectReference Include="..\Vidly.Factory\Vidly.Factory.csproj" />
-    <ProjectReference Include="..\Vidly.IBusinessLogic\Vidly.IBusinessLogic.csproj" />
     <ProjectReference Include="..\Vidly.Models\Vidly.Models.csproj" />
   </ItemGroup>
 

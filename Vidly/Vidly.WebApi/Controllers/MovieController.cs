@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Vidly.BusinessLogic;
 using Vidly.Exceptions;
-using Vidly.IBusinessLogic;
 using Vidly.Models.In;
 using Vidly.Models.Out;
 
@@ -10,11 +10,11 @@ namespace Vidly.WebApi.Controllers
     [ApiController]
     public class MovieController : ControllerBase
     {
-        private readonly IMovieManager _movieManager;
+        private readonly MovieManager _movieManager;
  
-        public MovieController(IMovieManager manager)
+        public MovieController()
         {
-            _movieManager = manager;
+            _movieManager = new MovieManager();
         }
 
         // Index - Get all movies (/api/movies)

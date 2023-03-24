@@ -1,11 +1,11 @@
 ﻿using Vidly.Exceptions;
 using Vidly.Domain.Entities;
 using Vidly.Domain.SearchCriterias;
-using Vidly.IBusinessLogic;
 
 namespace Vidly.BusinessLogic;
 
-public class MovieManager : IMovieManager
+// "Orquestar"
+public class MovieManager
 {
     private static List<Movie> _movies = new List<Movie>()
     {
