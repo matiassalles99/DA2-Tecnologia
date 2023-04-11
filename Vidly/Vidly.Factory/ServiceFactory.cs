@@ -12,9 +12,15 @@ public class ServiceFactory
 {
     public void RegisterServices(IServiceCollection serviceCollection)
     {
-        serviceCollection.AddTransient<IMovieManager, MovieManager>();
         serviceCollection.AddTransient<IRepository<Movie>, BaseRepository<Movie>>();
         serviceCollection.AddTransient<IRepository<Actor>, ActorRepository>();
+        serviceCollection.AddTransient<IRepository<Session>, SessionRepository>();
+        serviceCollection.AddTransient<IRepository<User>, BaseRepository<User>>();
+
+        serviceCollection.AddTransient<IMovieManager, MovieManager>();
+        // Lo hago scoped ya que este manager maneja estado, tiene el currentUser
+        serviceCollection.AddScoped<ISessionManager, SessionManager>();
+
         serviceCollection.AddDbContext<VidlyContext>();
     }
 }

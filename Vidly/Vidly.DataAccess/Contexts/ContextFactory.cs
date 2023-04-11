@@ -1,3 +1,4 @@
+using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
@@ -33,7 +34,8 @@ public class ContextFactory : IDesignTimeDbContextFactory<VidlyContext>
 
     private static DbContextOptions GetSqliteConfig(DbContextOptionsBuilder builder)
     {
-        builder.UseSqlite("Filename=:memory:");
+        var connection = new SqliteConnection("Filename=:memory:");
+        builder.UseSqlite(connection);
         return builder.Options;
     }
 

@@ -11,7 +11,7 @@ using Vidly.DataAccess.Contexts;
 namespace Vidly.DataAccess.Migrations
 {
     [DbContext(typeof(VidlyContext))]
-    [Migration("20220920023728_CreateActorsAndRoles")]
+    [Migration("20230411000244_CreateActorsAndRoles")]
     partial class CreateActorsAndRoles
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,7 +40,7 @@ namespace Vidly.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Actor");
+                    b.ToTable("Actors");
                 });
 
             modelBuilder.Entity("Vidly.Domain.Entities.Movie", b =>
@@ -57,7 +57,8 @@ namespace Vidly.DataAccess.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
@@ -87,7 +88,7 @@ namespace Vidly.DataAccess.Migrations
 
                     b.HasIndex("MovieId");
 
-                    b.ToTable("Role");
+                    b.ToTable("Roles");
                 });
 
             modelBuilder.Entity("Vidly.Domain.Entities.Role", b =>

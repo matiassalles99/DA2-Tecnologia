@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Vidly.DataAccess.Contexts;
 
@@ -11,9 +12,10 @@ using Vidly.DataAccess.Contexts;
 namespace Vidly.DataAccess.Migrations
 {
     [DbContext(typeof(VidlyContext))]
-    partial class VidlyContextModelSnapshot : ModelSnapshot
+    [Migration("20230411203949_AddUserAndSession")]
+    partial class AddUserAndSession
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

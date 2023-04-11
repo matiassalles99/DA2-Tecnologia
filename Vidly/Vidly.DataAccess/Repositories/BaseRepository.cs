@@ -22,22 +22,22 @@ public class BaseRepository<T> : IRepository<T> where T : class
         return _context.Set<T>().Where(expression);
     }
 
-    public T? GetOneBy(Expression<Func<T, bool>> expression)
+    public virtual T? GetOneBy(Expression<Func<T, bool>> expression)
     {
         return _context.Set<T>().FirstOrDefault(expression);
     }
 
-    public void Insert(T elem)
+    public virtual void Insert(T elem)
     {
         _context.Set<T>().Add(elem);
     }
 
-    public void Delete(T elem)
+    public virtual void Delete(T elem)
     {
         _context.Set<T>().Remove(elem);
     }
 
-    public void Update(T elem)
+    public virtual void Update(T elem)
     {
         _context.Set<T>().Update(elem);
     }

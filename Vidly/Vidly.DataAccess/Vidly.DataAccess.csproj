@@ -26,4 +26,8 @@
       <ProjectReference Include="..\Vidly.IDataAccess\Vidly.IDataAccess.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Migrations" />
+    </ItemGroup>
+
 </Project>

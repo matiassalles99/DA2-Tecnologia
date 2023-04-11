@@ -9,6 +9,8 @@ public class VidlyContext : DbContext
     public DbSet<Movie> Movies { get; set; }
     public DbSet<Actor> Actors { get; set; }
     public DbSet<Role> Roles { get; set; }
+    public DbSet<User> Users { get; set; }
+    public DbSet<Session> Sessions { get; set; }
 
     public VidlyContext(DbContextOptions options) : base(options) { }
     public VidlyContext() : base() { }
