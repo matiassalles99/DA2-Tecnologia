@@ -10,6 +10,8 @@ public class MovieManager : IMovieManager
 {
     private readonly IRepository<Movie> _repository;
 
+    // Si por algun motivo necesito el current user en algun lado, simplemente pido que me inyecten el sessionManager
+    // y llamo sin parametros a GetCurrentUser()
     public MovieManager(IRepository<Movie> repository)
     {
         _repository = repository;
