@@ -7,7 +7,7 @@ namespace Vidly.BusinessLogic;
 
 public class SessionManager : ISessionManager
 {
-    private User? _currentUser { get; set; }
+    private User? _currentUser;
     private IRepository<Session> _sessionRepository;
     private IRepository<User> _userRepository;
 
@@ -42,6 +42,7 @@ public class SessionManager : ISessionManager
 
         var session = new Session() { User = user };
         _sessionRepository.Insert(session);
+        _sessionRepository.Save();
 
         return session.AuthToken;
     }
