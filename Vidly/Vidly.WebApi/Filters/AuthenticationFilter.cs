@@ -12,7 +12,7 @@ namespace Vidly.WebApi.Filters
             var authorizationHeader = context.HttpContext.Request.Headers["Authorization"].ToString();
             Guid token = Guid.Empty;
 
-            if (string.IsNullOrEmpty(authorizationHeader) || Guid.TryParse(authorizationHeader, out token))
+            if (string.IsNullOrEmpty(authorizationHeader) || !Guid.TryParse(authorizationHeader, out token))
             {
                 context.Result = new ObjectResult(new { Message = "Authorization header is missing" })
                 {
@@ -21,8 +21,8 @@ namespace Vidly.WebApi.Filters
             }
             else
             {
-                var sessionLogic = this.GetSessionService(context);
-                var currentUser = sessionLogic.GetCurrentUser(token);
+                var sessionManager = this.GetSessionService(context);
+                var currentUser = sessionManager.GetCurrentUser(token);
 
                 if (currentUser == null)
                 {
@@ -36,11 +36,10 @@ namespace Vidly.WebApi.Filters
 
         protected ISessionManager GetSessionService(AuthorizationFilterContext context)
         {
-            var sessionHandlerType = typeof(ISessionManager);
-            var sessionHandlerLogicObject = context.HttpContext.RequestServices.GetService(sessionHandlerType);
-            var sessionHandler = sessionHandlerLogicObject as ISessionManager;
+            var sessionManagerObject = context.HttpContext.RequestServices.GetService(typeof(ISessionManager));
+            var sessionManager = sessionManagerObject as ISessionManager;
 
-            return sessionHandler;
+            return sessionManager;
         }
     }
 }
