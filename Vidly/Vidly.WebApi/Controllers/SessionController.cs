@@ -19,20 +19,14 @@ namespace Vidly.WebApi.Controllers
         [HttpPost]
         public IActionResult Login([FromBody] string email, [FromBody] string password)
         {
-            try
-            {
-                var token = _sessionManager.Authenticate(email, password);
-                return Ok(new { token = token });
-            }
-            catch (InvalidCredentialException e)
-            {
-                return BadRequest(e.Message);
-            }
+            var token = _sessionManager.Authenticate(email, password);
+            return Ok(new { token = token });
         }
 
         // En los endpoints que quiero usar autenticación, agrego el filtro, si quiero usarlo en todos los endpoints
         // de un controller lo agrego a nivel de la clase
-        [AuthenticationFilter]
+        [ServiceFilter(typeof(AuthenticationFilter))]
+        [RoleFilter(RoleNeeded = "Admin")]
         [HttpDelete]
         public IActionResult Logout()
         {
