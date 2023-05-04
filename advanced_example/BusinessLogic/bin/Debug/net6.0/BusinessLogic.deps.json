@@ -1,0 +1,90 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BusinessLogic/1.0.0": {
+        "dependencies": {
+          "IBusinessLogic": "1.0.0",
+          "IDataAccess": "1.0.0",
+          "IImporter": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "BusinessLogic.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
+      "IBusinessLogic/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "IBusinessLogic.dll": {}
+        }
+      },
+      "IDataAccess/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "IDataAccess.dll": {}
+        }
+      },
+      "IImporter/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "IImporter.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IBusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IDataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IImporter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

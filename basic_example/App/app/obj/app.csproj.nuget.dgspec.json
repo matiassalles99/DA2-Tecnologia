@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/basic_example/App/app/app.csproj": {}
+  },
+  "projects": {
+    "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/basic_example/App/app/app.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/basic_example/App/app/app.csproj",
+        "projectName": "app",
+        "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/basic_example/App/app/app.csproj",
+        "packagesPath": "/Users/marcofiorito/.nuget/packages/",
+        "outputPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/basic_example/App/app/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcofiorito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/basic_example/App/Contract/Contract.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/basic_example/App/Contract/Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.24, 3.1.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/basic_example/App/Contract/Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/basic_example/App/Contract/Contract.csproj",
+        "projectName": "Contract",
+        "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/basic_example/App/Contract/Contract.csproj",
+        "packagesPath": "/Users/marcofiorito/.nuget/packages/",
+        "outputPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/basic_example/App/Contract/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcofiorito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

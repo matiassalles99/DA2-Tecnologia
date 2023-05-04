@@ -1,0 +1,17 @@
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/bin/Debug/net6.0/XmlImporter.deps.json
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/bin/Debug/net6.0/XmlImporter.dll
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/bin/Debug/net6.0/XmlImporter.pdb
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/bin/Debug/net6.0/Domain.dll
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/bin/Debug/net6.0/IImporter.dll
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/bin/Debug/net6.0/IImporter.pdb
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/bin/Debug/net6.0/Domain.pdb
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/obj/Debug/net6.0/XmlImporter.csproj.AssemblyReference.cache
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/obj/Debug/net6.0/XmlImporter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/obj/Debug/net6.0/XmlImporter.AssemblyInfoInputs.cache
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/obj/Debug/net6.0/XmlImporter.AssemblyInfo.cs
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/obj/Debug/net6.0/XmlImporter.csproj.CoreCompileInputs.cache
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/obj/Debug/net6.0/XmlImporter.csproj.CopyComplete
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/obj/Debug/net6.0/XmlImporter.dll
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/obj/Debug/net6.0/refint/XmlImporter.dll
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/obj/Debug/net6.0/XmlImporter.pdb
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/XmlImporter/obj/Debug/net6.0/ref/XmlImporter.dll

@@ -1,0 +1,517 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/WebAPI/WebAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/BusinessLogic/BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/BusinessLogic/BusinessLogic.csproj",
+        "projectName": "BusinessLogic",
+        "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/BusinessLogic/BusinessLogic.csproj",
+        "packagesPath": "/Users/marcofiorito/.nuget/packages/",
+        "outputPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/BusinessLogic/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcofiorito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IBusinessLogic/IBusinessLogic.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IBusinessLogic/IBusinessLogic.csproj"
+              },
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IDataAccess/IDataAccess.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IDataAccess/IDataAccess.csproj"
+              },
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IImporter/IImporter.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IImporter/IImporter.csproj"
+              },
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/DataAccess/DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/DataAccess/DataAccess.csproj",
+        "packagesPath": "/Users/marcofiorito/.nuget/packages/",
+        "outputPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcofiorito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IDataAccess/IDataAccess.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IDataAccess/IDataAccess.csproj"
+              },
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-preview.7.22376.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-preview.7.22376.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0-preview.7.22376.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0-preview.7.22376.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Domain/Domain.csproj",
+        "packagesPath": "/Users/marcofiorito/.nuget/packages/",
+        "outputPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcofiorito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IBusinessLogic/IBusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IBusinessLogic/IBusinessLogic.csproj",
+        "projectName": "IBusinessLogic",
+        "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IBusinessLogic/IBusinessLogic.csproj",
+        "packagesPath": "/Users/marcofiorito/.nuget/packages/",
+        "outputPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IBusinessLogic/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcofiorito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Domain/Domain.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Domain/Domain.csproj"
+              },
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IDataAccess/IDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IDataAccess/IDataAccess.csproj",
+        "projectName": "IDataAccess",
+        "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IDataAccess/IDataAccess.csproj",
+        "packagesPath": "/Users/marcofiorito/.nuget/packages/",
+        "outputPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IDataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcofiorito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Domain/Domain.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Domain/Domain.csproj"
+              },
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IImporter/IImporter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IImporter/IImporter.csproj",
+        "projectName": "IImporter",
+        "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IImporter/IImporter.csproj",
+        "packagesPath": "/Users/marcofiorito/.nuget/packages/",
+        "outputPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IImporter/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcofiorito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Domain/Domain.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj",
+        "projectName": "Models",
+        "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj",
+        "packagesPath": "/Users/marcofiorito/.nuget/packages/",
+        "outputPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcofiorito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/WebAPI/WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/WebAPI/WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/WebAPI/WebAPI.csproj",
+        "packagesPath": "/Users/marcofiorito/.nuget/packages/",
+        "outputPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/WebAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcofiorito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/BusinessLogic/BusinessLogic.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/BusinessLogic/BusinessLogic.csproj"
+              },
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/DataAccess/DataAccess.csproj"
+              },
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IBusinessLogic/IBusinessLogic.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IBusinessLogic/IBusinessLogic.csproj"
+              },
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IDataAccess/IDataAccess.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IDataAccess/IDataAccess.csproj"
+              },
+              "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj": {
+                "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-preview.7.22376.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0-preview.7.22376.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

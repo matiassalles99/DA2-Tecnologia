@@ -1,0 +1,17 @@
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/obj/Debug/net6.0/JsonImporter.csproj.AssemblyReference.cache
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/obj/Debug/net6.0/JsonImporter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/obj/Debug/net6.0/JsonImporter.AssemblyInfoInputs.cache
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/obj/Debug/net6.0/JsonImporter.AssemblyInfo.cs
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/obj/Debug/net6.0/JsonImporter.csproj.CoreCompileInputs.cache
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/bin/Debug/net6.0/JsonImporter.deps.json
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/bin/Debug/net6.0/JsonImporter.dll
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/bin/Debug/net6.0/JsonImporter.pdb
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/bin/Debug/net6.0/Domain.dll
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/bin/Debug/net6.0/IImporter.dll
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/bin/Debug/net6.0/IImporter.pdb
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/bin/Debug/net6.0/Domain.pdb
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/obj/Debug/net6.0/JsonImporter.csproj.CopyComplete
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/obj/Debug/net6.0/JsonImporter.dll
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/obj/Debug/net6.0/refint/JsonImporter.dll
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/obj/Debug/net6.0/JsonImporter.pdb
+/Users/marcofiorito/DeveloperProjects/da2/2022.2-AN-NEW/Clase6EjemploAvanzado/JsonImporter/obj/Debug/net6.0/ref/JsonImporter.dll

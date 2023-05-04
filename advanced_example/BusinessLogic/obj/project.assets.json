@@ -1,0 +1,171 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "IBusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IBusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IBusinessLogic.dll": {}
+        }
+      },
+      "IDataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IDataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IDataAccess.dll": {}
+        }
+      },
+      "IImporter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IImporter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IImporter.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "IBusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../IBusinessLogic/IBusinessLogic.csproj",
+      "msbuildProject": "../IBusinessLogic/IBusinessLogic.csproj"
+    },
+    "IDataAccess/1.0.0": {
+      "type": "project",
+      "path": "../IDataAccess/IDataAccess.csproj",
+      "msbuildProject": "../IDataAccess/IDataAccess.csproj"
+    },
+    "IImporter/1.0.0": {
+      "type": "project",
+      "path": "../IImporter/IImporter.csproj",
+      "msbuildProject": "../IImporter/IImporter.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "IBusinessLogic >= 1.0.0",
+      "IDataAccess >= 1.0.0",
+      "IImporter >= 1.0.0",
+      "Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/marcofiorito/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/BusinessLogic/BusinessLogic.csproj",
+      "projectName": "BusinessLogic",
+      "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/BusinessLogic/BusinessLogic.csproj",
+      "packagesPath": "/Users/marcofiorito/.nuget/packages/",
+      "outputPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/BusinessLogic/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/marcofiorito/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IBusinessLogic/IBusinessLogic.csproj": {
+              "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IBusinessLogic/IBusinessLogic.csproj"
+            },
+            "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IDataAccess/IDataAccess.csproj": {
+              "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IDataAccess/IDataAccess.csproj"
+            },
+            "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IImporter/IImporter.csproj": {
+              "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/IImporter/IImporter.csproj"
+            },
+            "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj": {
+              "projectPath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/advanced_example/Models/Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

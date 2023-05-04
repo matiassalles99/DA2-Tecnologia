@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZeeZyV9ZRN0iz2dKAr1E2xDEjRdQfIaEG6QCUg45kTHVa3hocqe+JcBBBQMtIIEDV2c0CRjXSRigMonSrY30pw==",
+  "success": true,
+  "projectFilePath": "/Users/marcofiorito/DeveloperProjects/da2/2023/DA2-Tecnologia/basic_example/App/app/app.csproj",
+  "expectedPackageFiles": [
+    "/Users/marcofiorito/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/marcofiorito/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/marcofiorito/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.24/microsoft.netcore.app.host.osx-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}
