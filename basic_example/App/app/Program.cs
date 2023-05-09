@@ -69,6 +69,15 @@ namespace app
 
             foreach (Type tipo in myAssembly.GetTypes())
             {
+                // object instancia = Activator.CreateInstance(tipo);
+                // MethodInfo met = tipo.GetMethod("Log");
+                // var toSave = "Hola";
+                // var route = "Test";
+                // met.Invoke(instancia, new object[]{
+                //     toSave,
+                //     route
+                // });
+
                 Console.WriteLine(string.Format("Clase: {0}", tipo.Name));
 
                 Console.WriteLine("Fields");
