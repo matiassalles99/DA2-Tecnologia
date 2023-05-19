@@ -13,7 +13,7 @@ export class AuthorizationGuard implements CanActivate {
     let userInfo = localStorage.getItem('userInfo');
     if (userInfo) {
       let userInfoObj = JSON.parse(userInfo);
-      return userInfoObj.name === "John Doe";
+      return userInfoObj.name === "Mike";
     }
     return false;
   }

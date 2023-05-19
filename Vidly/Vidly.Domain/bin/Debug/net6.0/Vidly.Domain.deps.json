@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Vidly.Domain/1.0.0": {
+        "dependencies": {
+          "Vidly.Exceptions": "1.0.0"
+        },
+        "runtime": {
+          "Vidly.Domain.dll": {}
+        }
+      },
+      "Vidly.Exceptions/1.0.0": {
+        "runtime": {
+          "Vidly.Exceptions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vidly.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vidly.Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

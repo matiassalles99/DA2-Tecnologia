@@ -1,0 +1,12 @@
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/bin/Debug/net6.0/Vidly.Exceptions.deps.json
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/bin/Debug/net6.0/Vidly.Exceptions.dll
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/bin/Debug/net6.0/Vidly.Exceptions.pdb
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/obj/Debug/net6.0/Vidly.Exceptions.csproj.AssemblyReference.cache
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/obj/Debug/net6.0/Vidly.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/obj/Debug/net6.0/Vidly.Exceptions.AssemblyInfoInputs.cache
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/obj/Debug/net6.0/Vidly.Exceptions.AssemblyInfo.cs
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/obj/Debug/net6.0/Vidly.Exceptions.csproj.CoreCompileInputs.cache
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/obj/Debug/net6.0/Vidly.Exceptions.dll
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/obj/Debug/net6.0/refint/Vidly.Exceptions.dll
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/obj/Debug/net6.0/Vidly.Exceptions.pdb
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/obj/Debug/net6.0/ref/Vidly.Exceptions.dll

@@ -1,3 +1,3 @@
-export enum PetsEndpoints {
-  GET_ALL_PETS = '/pets'
+export enum MovieEndpoints {
+  GET_ALL_MOVIES = '/movies'
 }

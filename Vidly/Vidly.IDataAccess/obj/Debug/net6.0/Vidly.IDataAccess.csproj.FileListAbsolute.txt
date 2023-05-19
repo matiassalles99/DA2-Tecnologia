@@ -1,0 +1,12 @@
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/bin/Debug/net6.0/Vidly.IDataAccess.deps.json
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/bin/Debug/net6.0/Vidly.IDataAccess.dll
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/bin/Debug/net6.0/Vidly.IDataAccess.pdb
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/obj/Debug/net6.0/Vidly.IDataAccess.csproj.AssemblyReference.cache
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/obj/Debug/net6.0/Vidly.IDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/obj/Debug/net6.0/Vidly.IDataAccess.AssemblyInfoInputs.cache
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/obj/Debug/net6.0/Vidly.IDataAccess.AssemblyInfo.cs
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/obj/Debug/net6.0/Vidly.IDataAccess.csproj.CoreCompileInputs.cache
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/obj/Debug/net6.0/Vidly.IDataAccess.dll
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/obj/Debug/net6.0/refint/Vidly.IDataAccess.dll
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/obj/Debug/net6.0/Vidly.IDataAccess.pdb
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/obj/Debug/net6.0/ref/Vidly.IDataAccess.dll

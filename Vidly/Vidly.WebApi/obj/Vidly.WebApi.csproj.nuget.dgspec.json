@@ -1,0 +1,586 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.WebApi/Vidly.WebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.BusinessLogic/Vidly.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.BusinessLogic/Vidly.BusinessLogic.csproj",
+        "projectName": "Vidly.BusinessLogic",
+        "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.BusinessLogic/Vidly.BusinessLogic.csproj",
+        "packagesPath": "/Users/matiassalles/.nuget/packages/",
+        "outputPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.BusinessLogic/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiassalles/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/Vidly.Exceptions.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/Vidly.Exceptions.csproj"
+              },
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/Vidly.IBusinessLogic.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/Vidly.IBusinessLogic.csproj"
+              },
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/Vidly.IDataAccess.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/Vidly.IDataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.DataAccess/Vidly.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.DataAccess/Vidly.DataAccess.csproj",
+        "projectName": "Vidly.DataAccess",
+        "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.DataAccess/Vidly.DataAccess.csproj",
+        "packagesPath": "/Users/matiassalles/.nuget/packages/",
+        "outputPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiassalles/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Domain/Vidly.Domain.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Domain/Vidly.Domain.csproj"
+              },
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/Vidly.IDataAccess.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/Vidly.IDataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Domain/Vidly.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Domain/Vidly.Domain.csproj",
+        "projectName": "Vidly.Domain",
+        "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Domain/Vidly.Domain.csproj",
+        "packagesPath": "/Users/matiassalles/.nuget/packages/",
+        "outputPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiassalles/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/Vidly.Exceptions.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/Vidly.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/Vidly.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/Vidly.Exceptions.csproj",
+        "projectName": "Vidly.Exceptions",
+        "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/Vidly.Exceptions.csproj",
+        "packagesPath": "/Users/matiassalles/.nuget/packages/",
+        "outputPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Exceptions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiassalles/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Factory/Vidly.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Factory/Vidly.Factory.csproj",
+        "projectName": "Vidly.Factory",
+        "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Factory/Vidly.Factory.csproj",
+        "packagesPath": "/Users/matiassalles/.nuget/packages/",
+        "outputPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Factory/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiassalles/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.BusinessLogic/Vidly.BusinessLogic.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.BusinessLogic/Vidly.BusinessLogic.csproj"
+              },
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.DataAccess/Vidly.DataAccess.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.DataAccess/Vidly.DataAccess.csproj"
+              },
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/Vidly.IBusinessLogic.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/Vidly.IBusinessLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0-preview.7.22375.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/Vidly.IBusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/Vidly.IBusinessLogic.csproj",
+        "projectName": "Vidly.IBusinessLogic",
+        "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/Vidly.IBusinessLogic.csproj",
+        "packagesPath": "/Users/matiassalles/.nuget/packages/",
+        "outputPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiassalles/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Domain/Vidly.Domain.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Domain/Vidly.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/Vidly.IDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/Vidly.IDataAccess.csproj",
+        "projectName": "Vidly.IDataAccess",
+        "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/Vidly.IDataAccess.csproj",
+        "packagesPath": "/Users/matiassalles/.nuget/packages/",
+        "outputPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IDataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiassalles/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Models/Vidly.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Models/Vidly.Models.csproj",
+        "projectName": "Vidly.Models",
+        "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Models/Vidly.Models.csproj",
+        "packagesPath": "/Users/matiassalles/.nuget/packages/",
+        "outputPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiassalles/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Domain/Vidly.Domain.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Domain/Vidly.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.WebApi/Vidly.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.WebApi/Vidly.WebApi.csproj",
+        "projectName": "Vidly.WebApi",
+        "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.WebApi/Vidly.WebApi.csproj",
+        "packagesPath": "/Users/matiassalles/.nuget/packages/",
+        "outputPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiassalles/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.BusinessLogic/Vidly.BusinessLogic.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.BusinessLogic/Vidly.BusinessLogic.csproj"
+              },
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Factory/Vidly.Factory.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Factory/Vidly.Factory.csproj"
+              },
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/Vidly.IBusinessLogic.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/Vidly.IBusinessLogic.csproj"
+              },
+              "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Models/Vidly.Models.csproj": {
+                "projectPath": "/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.Models/Vidly.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

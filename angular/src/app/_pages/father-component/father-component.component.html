@@ -1,0 +1,24 @@
+<h3>father-component</h3>
+
+<br />
+
+<b>{{ propertyFromFather }}</b>
+<button (click)="changePropertyFromFather()">Cambiar propiedad desde el padre</button>
+<br />
+
+<br />
+<br />
+
+
+Desde el hijo: <b>{{ propertyFromSon }}</b>
+
+<br />
+<br />
+
+<hr/>
+
+<app-son
+  message="Esto viene del padre"
+  [messageProp]="propertyFromFather"
+  (emitterFromSon)="eventFromSon($event)">
+</app-son>

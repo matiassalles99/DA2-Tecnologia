@@ -1,0 +1,17 @@
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/bin/Debug/net6.0/Vidly.IBusinessLogic.deps.json
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/bin/Debug/net6.0/Vidly.IBusinessLogic.dll
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/bin/Debug/net6.0/Vidly.IBusinessLogic.pdb
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/bin/Debug/net6.0/Vidly.Domain.dll
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/bin/Debug/net6.0/Vidly.Exceptions.dll
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/bin/Debug/net6.0/Vidly.Domain.pdb
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/bin/Debug/net6.0/Vidly.Exceptions.pdb
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/obj/Debug/net6.0/Vidly.IBusinessLogic.csproj.AssemblyReference.cache
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/obj/Debug/net6.0/Vidly.IBusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/obj/Debug/net6.0/Vidly.IBusinessLogic.AssemblyInfoInputs.cache
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/obj/Debug/net6.0/Vidly.IBusinessLogic.AssemblyInfo.cs
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/obj/Debug/net6.0/Vidly.IBusinessLogic.csproj.CoreCompileInputs.cache
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/obj/Debug/net6.0/Vidly.IBusinessLogic.csproj.CopyComplete
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/obj/Debug/net6.0/Vidly.IBusinessLogic.dll
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/obj/Debug/net6.0/refint/Vidly.IBusinessLogic.dll
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/obj/Debug/net6.0/Vidly.IBusinessLogic.pdb
+/Users/matiassalles/Desktop/ORT/Teacher/DA2-Tecnologia/Vidly/Vidly.IBusinessLogic/obj/Debug/net6.0/ref/Vidly.IBusinessLogic.dll

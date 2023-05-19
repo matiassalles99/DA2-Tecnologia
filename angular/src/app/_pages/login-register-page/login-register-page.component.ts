@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-login-register-page',
   templateUrl: './login-register-page.component.html',
-  styleUrls: ['./login-register-page.component.css']
+  styleUrls: [],
 })
 export class LoginRegisterPageComponent implements OnInit {
 
@@ -13,6 +13,6 @@ export class LoginRegisterPageComponent implements OnInit {
   }
 
   public login(): void{
-    localStorage.setItem('userInfo', JSON.stringify({ name: 'Mike'}) );
+    localStorage.setItem('userInfo', JSON.stringify({ name: 'Mike', token: 'asdfasdf'}) );
   }
 }
